@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Exercício 7 - Formulário</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form action="#" method="GET">
+
+        <div>
+            <label class="metade" for="texto">
+                <p>Texto</p> 
+                <p>text input</p>
+            </label>
+            <input type="text" name="texto">
+        </div>
+
+        <div>
+            <label class="metade" for="password">
+                <p>Senha</p>
+                <p>Password</p>
+            </label>
+            <input type="password" name="senha">
+        </div>
+
+        <div class="metade">
+            <p>Escolha uma ou múltiplas opções</p>
+            <p>Checkboxes</p>
+        </div>
+
+        <div class="metade">
+            <input type="checkbox" name="atributos" value="mulher">
+            <label for="atributos">Mulher</label><br>
+
+            <input type="checkbox" name="atributos" value="poderosa">
+            <label for="atributos">Poderosa</label><br>
+            
+            <input type="checkbox" name="atributos" value="linda">
+            <label for="atributos">Linda</label><br>
+            
+            <input type="checkbox" name="atributos" value="maravilhosa">
+            <label for="atributos">Maravilhosa</label><br>
+        </div>
+
+        <div class="metade">
+            <p>Escolha uma opção</p>
+        </div>
+
+        <div class="metade">
+            
+
+            <input type="radio" name="poder" value="Super força">
+            <label for="poder">Super força</label><br>
+
+            <input type="radio" name="poder" value="Ser invisível">
+            <label for="poder">Ser invisível</label><br>
+
+            <input type="radio" name="poder" value="Ler mentes">
+            <label for="poder">Ler mentes</label><br>
+
+            <input type="radio" name="poder" value="Super velocidade">
+            <label for="poder">Super velocidade</label><br>
+        </div>
+
+        <div class="metade">
+            <p>Selecione dropdown</p>
+        </div>
+
+        <div class="metade">
+            <select class="metade" name="Opções">
+                <option value="nulo"></option>
+                <option value="opcao1">Opção 1</option>
+                <option value="opcao2">Opção 2</option>
+                <option value="opcao3">Opção 3</option>
+            </select>
+        </div>
+
+        <div class="metade">
+            <label for="valor">
+                <p>Escolha um valor</p>
+                <p>Multiple values</p>
+            </label>
+        </div>
+
+        <div class="metade">
+            <input type="number" name="valor" min="0" max="6">
+        </div>
+
+        <div class="metade">
+            <p>Comentários</p>
+            <label for="comentario"></label>
+        </div>
+
+        <div class="metade">
+            <textarea name="comentario" rows="10"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    
+    </form>
+</body>
+
+</html>
